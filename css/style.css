@@ -1,0 +1,144 @@
+.inner{
+    display: inline-block;
+    vertical-align: top;
+    width: 174px;
+    height: 240px;
+}
+input, #form-btn{
+    width: 245px;
+    display: block;
+    margin: 15px auto;
+    border: 0;
+    padding: 5px;
+    background: white;
+    background-color: white;
+
+}
+.add-book{
+    margin-left: 210px;
+}
+.add-book img{
+    width: 50px;
+    height: 35px;
+}
+#form-btn{
+    border: 0;
+    width: 245px;
+    padding: 7px 0;
+    color: white;
+    margin-top: 30px;
+    background: rgb(73, 156, 164);
+}
+#username, #email {
+    padding: 5px;
+    background: white;
+    background-color: white;
+    background-image: url("../img/Users-Edit-user-icon_large.png");
+    background-size: 22px 21px;
+    background-repeat: no-repeat;
+    background-position-x: 4px;
+    background-position-y: 2px;
+    padding-left: 50px;
+}
+#email {
+    background-image: url("../img/Pictogram_Message.png");
+    background-size: 31px 38px;
+    background-position-x: -2px;
+    background-position-y: -5px;
+}
+#password, #rep-password {
+    padding: 5px;
+    background: white;
+    background-color: white;
+    background-image: url("../img/key-512.png");
+    background-size: 22px 21px;
+    background-repeat: no-repeat;
+    background-position-x: 4px;
+    background-position-y: 2px;
+    padding-left: 50px;
+}
+form {
+    min-height: 200px;
+    padding-top: 1px;
+    width: 40%;
+    margin: 50px auto;
+    padding-bottom: 10px;
+    background: linear-gradient(272deg,white, #009996, white);
+}
+
+h2 {
+    color: rgb(220, 220, 220);
+    text-align: center;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    black;
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    black;
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    black;
+}
+input{
+    background-color: white;
+}
+body{
+   background:  #FFFFE3;
+}
+section{
+    width: 93%;
+    background: #FFFFE3;
+    margin: 10px auto;
+}
+ul {
+    width: 90%;
+    margin: 0 auto;
+    background: #009996;
+}
+a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+ul li {
+    width: 290px;
+    padding: 5px 0;
+
+    display: inline-block;
+}
+h4{
+    margin-bottom: 5px;
+}
+img{
+    width: 155px;
+    height: 235px;
+}
+article{
+    margin-left: 67px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 340px;
+}
+
+.edit{
+    background: green;
+    border: 0;
+    width: 100px;
+    padding: 5px 0;
+    color: white;
+
+}
+.remove{
+    background: red;
+    border: 0;
+    width: 100px;
+    padding: 5px 0;
+    color: white;
+}

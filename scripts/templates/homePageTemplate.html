@@ -1,0 +1,12 @@
+{{#books}}
+    <article>
+        <h4>{{title}}</h4>
+        <img src="{{image}}"/>
+        <div class="inner">
+            <div>By: {{author}}</div>
+            <div>ISBN: {{isbn}}</div>
+        </div>
+        <button type="button" class="edit" id="edit_{{objectId}}">Edit</button>
+        <button type="button" class="remove"  id="remove_{{objectId}}">Remove</button>
+    </article>
+{{/books}}
